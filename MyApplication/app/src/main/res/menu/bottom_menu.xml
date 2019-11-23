@@ -6,12 +6,14 @@
         android:title="@string/shoot"
         android:enabled="true"
         android:id="@+id/shoot_action"
+        android:icon="@drawable/ic_photo_camera_24px"
         app:showAsAction="ifRoom"
     />
 
     <item
         android:title="@string/main"
         android:enabled="true"
+        android:icon="@drawable/ic_home_24px"
         android:id="@+id/main_action"
         app:showAsAction="ifRoom"
     />
@@ -19,6 +21,7 @@
     <item
         android:title="@string/settings"
         android:enabled="true"
+        android:icon="@drawable/ic_settings_applications_24px"
         android:id="@+id/settings_action"
         app:showAsAction="ifRoom"
     />
