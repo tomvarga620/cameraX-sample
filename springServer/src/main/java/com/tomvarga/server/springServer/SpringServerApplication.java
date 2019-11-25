@@ -21,14 +21,14 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 @SpringBootApplication
-@RestController
+//@RestController
 public class SpringServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringServerApplication.class, args);
 	}
 
-	@PostMapping("/upload")
+	/*@PostMapping("/upload")
 	public ResponseEntity uploadFileToSystem(@RequestParam("file") MultipartFile file,
 		HttpServletResponse response){
 
@@ -42,5 +42,7 @@ public class SpringServerApplication {
 			e.printStackTrace();
 		}
 		return ResponseEntity.ok("Image was saved");
-	}
+	}*/
+
+
 }
